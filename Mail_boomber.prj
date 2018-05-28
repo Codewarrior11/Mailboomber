@@ -1,0 +1,61 @@
+%%Excelsior JET v12.0 project file
+
+-jpiiproject=C:\Users\Appel\Documents\NetBeansProjects\Mail_boomber\Mail_boomber.jpn
+
+-compilewithfixedheap-
+-genstackalloc+
+-genstacktrace-
+-global-
+-gui+
+-ignoreclassduplication+
+-ignorememberabsence+
+-inline+
+-multiapp-
+-pgo+
+-splashgetfrommanifest-
+
+-apptype=Plain
+-classabsence=HANDLE
+-compilerheap=1744830464
+-inlinelimit=100
+-inlinetolimit=1000
+-javacommandline:=java -jar \dist\Mail_boomber.jar
+-jetcplastpage:=PageCompile
+-jetrt=Desktop
+-jetvmprop=-Djet.gc.heaplimit:0 -Djet.stack.trace
+-jprofile=./Mail_boomber.jprof
+-main=mail/Main_ui
+-outputdir=.
+-outputname=Mail_boomber
+-saprofmode=JETCPONLY
+-saproftimeout=20
+-stacklimit=900000
+-startupprofile=./Mail_boomber.startup
+-versioninfocompanyname=Appel
+-versioninfofiledescription=Mail_boomber
+-versioninfolegalcopyright=Copyright \x00a9 2017 Appel
+-versioninfoproductname=Mail_boomber
+-versioninfoproductversion=1.0.0.0
+
+
+
+
+!classpathentry ./dist/Mail_boomber.jar
+  -pack=noncompiled
+  -protect=all
+  -optimize=all
+!end
+!classpathentry ./dist/lib/mail.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+!classpathentry ./dist/lib/AbsoluteLayout.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+
+!module ../../../Desktop/bomb.ico
+!module ./Mail_boomber.usg
+

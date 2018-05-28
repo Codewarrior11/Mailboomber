@@ -1,0 +1,38 @@
+
+-arch=x86
+-jetcomponent=12.00
+-jetedition=Evaluation
+-vcode=8121
+-sys=W
+-nosmart
+-zimer=0
+-stack=900000
+-LargeAddressAware
+-config=VMProperty:-Djet.gc.heaplimit:0 -Djet.stack.trace
+-config=ClassPath:*{exe.dir}\dist\Mail_boomber.jar;*{exe.dir}\dist\lib\mail.jar;*{exe.dir}\dist\lib\AbsoluteLayout.jar
+-config=JREHome:C:\jet12.0-eval-x86\bin\..\profile1.8.0_121\jre
+-config=JETProfile:8121
+-config=JETProfileName:1.8.0_121
+-config=RuntimeKind:DESKTOP
+-EmbeddedFileSys=C:/Users/Appel/Documents/NetBeansProjects/Mail_boomber/Mail_boomber_jetpdb/Mail_boomber.efs
+-config=MainClass:mail/Main_ui
+-config=VersionInfo:jet-1200-release (eval, en)
+-config=CompatibilityString:Java SE version: 1.8.0_121; JET update level: 0; CPU architecture: x86
+-name=Mail_boomber.exe
+C:\Users\Appel\Documents\NetBeansProjects\Mail_boomber\Mail_boomber_jetpdb\version.res
+
+-entry=ExeEntryPoint
+
+-LinkFileAsRData=LINK_SplashPicture:C:\jet12.0-eval-x86\lib\x86\dummysplash.lib
+C:\jet12.0-eval-x86\lib\x86\startup-exe-normal.zip
+-config=PackagingOptions:dlls=net;t2k;nio;awt;dcpr;fontmanager component_microversions=BC-0
+-ReadLinkInfo=C:\Users\Appel\Documents\NetBeansProjects\Mail_boomber\Mail_boomber_jetpdb\reorder.li
+C:\Users\Appel\Documents\NetBeansProjects\Mail_boomber\Mail_boomber_jetpdb\obj.zip
+-Config=RTComponent:XKRN12008121.dll
+C:\jet12.0-eval-x86\lib\x86\startup-rtlink.zip
+C:\jet12.0-eval-x86\lib\x86\import32.lib
+..\..\..\Desktop\bomb.ico
+C:\jet12.0-eval-x86\lib\x86\app.res
+-StrictLinkToDLL
+
+
